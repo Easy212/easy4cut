@@ -31,7 +31,7 @@ body {
 	background-color: white;
 	margin: 15px 20px;
     width: 350px;
-	height: 200px;
+	height: 350px;
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -39,22 +39,6 @@ body {
 	cursor: pointer; 
 }
 
-#image1 {
-
-  }
-
-#image2 {
-
-}
-
-#image3 {
-
-}
-
-#image4 {
-
-  
-}
 .photo-description {
 	color: white;
 	background-color: black;
