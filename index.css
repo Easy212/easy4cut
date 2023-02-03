@@ -19,7 +19,7 @@ body {
 /*  */
 .container {
     width: 390px;
-    background-color: #ff9d73;
+    background-color: #D1B2FF;
     height: 100%;
 }
 
@@ -30,7 +30,8 @@ body {
 .photo-frame {
 	background-color: white;
 	margin: 15px 20px;
-	height: 350px;
+    width: 350px;
+	height: 200px;
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -38,31 +39,12 @@ body {
 	cursor: pointer; 
 }
 
-
-/* 하단 영역 스타일링 */
-.footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.f-title {
-    font-size: 25px;
-    font-weight: 900;
-    color: white;
-}
-.f-date {
-    font-size: 15px;
-    font-weight: 500;
-    color: white;
-}
-
 #image1 {
-    background-image: url("./img/easy1.jpg");
+
   }
 
 #image2 {
-    background-image: url("./img/easy2.jpg");
+
 }
 
 #image3 {
@@ -87,19 +69,40 @@ body {
 	left: 50%;
 	opacity: 0; 
 }
-
-.video {
+.imgs{
     width: 100%;
     height: 100%;
 }
-/* opacity : 투명도를 의미해요! 0% 투명하다. 즉 다 보인다. */
+
+video {
+    width: 350px;
+    height: 200px;
+    object-fit: fill;
+}
+
 .showText {
 	opacity: 0;
 }
 
-/* opacity : 투명도를 의미해요! 100% 투명하다. 즉 안보인다. */
-/* transition : 나타날 때 0.5초동안 천천히 나타나는 효과를 주라는 의미에요 */
 .hideText {
     opacity: 1;
     transition: opacity 0.5s linear;
+}
+
+/* 하단 영역 스타일링 */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f-title {
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+}
+.f-date {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
 }
