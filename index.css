@@ -30,9 +30,10 @@ body {
 .photo-frame {
 	background-color: white;
 	margin: 15px 20px;
-	height: 200px;
+	height: 350px;
 	background-size: cover;
-
+    background-repeat: no-repeat;
+    background-position: center;
 	position: relative;
 	cursor: pointer; 
 }
@@ -56,25 +57,20 @@ body {
     color: white;
 }
 
-#image1 img{
-    width: 100%;
-    height: 100%;
+#image1 {
+    background-image: url("./img/easy1.jpg");
   }
 
-#image2 img{
-    width: 100%;
-    height: 100%;
+#image2 {
+    background-image: url("./img/easy2.jpg");
+}
+
+#image3 {
 
 }
 
-#image3 video{
-    width: 100%;
-    height: 100%;
-}
+#image4 {
 
-#image4 video{
-    width: 100%;
-    height: 100%;
   
 }
   
